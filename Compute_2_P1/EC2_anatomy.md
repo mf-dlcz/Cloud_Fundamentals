@@ -7,3 +7,11 @@ The majority of Amazon EC2 instances run on hardware known as the AWS Nitro Syst
 
 - The AWS Nitro System is built specifically to run instances in the most optimal way possible.
 
+## Benefits of Nitro Hypervisor
+### <ins>Faster Innovation<ins>
+
+### <ins>Enhanced Security<ins>
+
+### <ins>Better Performance and Price<ins>
+
+### <ins>Support for Previous Generation Instances<ins>
