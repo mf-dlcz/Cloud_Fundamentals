@@ -6,7 +6,7 @@
     - [Table Of Contents](#table-of-contents)
     - [Compute 2 Part 1](Compute_2_P1)
         - [EC2 Anatomy](Compute_2_P1/EC2_anatomy.md)
-        - []()
+        - [Understanding the EC2 Lifecycle](Compute_2_P1/EC2_lifecycle.md)
         - []()
         - []()
         - []()

@@ -107,3 +107,34 @@ built, without having to upgrade or change them.
 
 
 ## Network Interface
+Each EC2 instance comes with a primary elastic network interface.
+
+This is a logical networking component that represents a virtual network card.
+
+> [!NOTE]  
+> The elastic network interface allows the instance to communicate with other instances, servers, network storage, 
+> and anything on the internet.
+
+
+## Bare Metal Instances
+Bare metal instances are different from an instance on a Dedicated Host, because a Dedicated Host instance comes 
+with the virtualization software (the hypervisor) preinstalled.
+
+### Bare Metal Instances are ideal for:
+- Workloads that require access to the hardware feature set
+
+- Applications that need to run in non-virtualized environments for licensing or support requirements
+
+- Customers who want to use their own hypervisor
+
+
+### Benefits of a Bare Metal Instance
+- Deep performance analysis tools
+
+- Specialized workloads that require direct access to bare metal infrastructure
+
+- Legacy workloads not supported in virtual environments
+
+- Licensing-restricted Tier 1 business-critical applications
+
+A bare metal instance has the lowest response latency because it does not have the overhead of running a hypervisor.
