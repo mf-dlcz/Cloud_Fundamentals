@@ -27,3 +27,31 @@
         - Most similar to on-premises deployment
     
     - Cons: Operational effort including managing AMIs, scaling, availability and deployment
+
+
+## Installing an App on Amazon EC2
+High level overview
+
+1. Create EC2 Instance
+    - Select an AMI
+    - Configure instance elements (cpu, storage capacity, networking settings, security policies)
+
+2. Connect to Instance using
+    - SSH client
+    - Remote Desktop Protocol (RDP) for Windows
+    - EC2 through Management Console
+    - Session Manager
+
+Install and configure software
+
+3. Install Software
+    - Standalone database
+    - HTTP server
+    - Any third-party software that users or apps will connect to
+
+4. Users and Outside Apps
+    - Users and outside apps can connect to the running app using clients, such as database
+    clients and web browsers.
+
+
+# 
