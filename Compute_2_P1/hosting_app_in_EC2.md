@@ -52,6 +52,3 @@ Install and configure software
 4. Users and Outside Apps
     - Users and outside apps can connect to the running app using clients, such as database
     clients and web browsers.
-
-
-# 

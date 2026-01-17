@@ -8,7 +8,7 @@
         - [EC2 Anatomy](Compute_2_P1/EC2_anatomy.md)
         - [Understanding the EC2 Lifecycle](Compute_2_P1/EC2_lifecycle.md)
         - [Hosting an App on Amazon EC2 ](Compute_2_P1/hosting_app_in_EC2.md)
-        - []()
+        - [Image Builder](img_builder.md)
         - []()
     - [Computer 2 Part 2](Compute_2_P1)
     - [Diagrams](Diagrams)
