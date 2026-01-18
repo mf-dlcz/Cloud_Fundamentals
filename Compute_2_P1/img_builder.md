@@ -2,7 +2,9 @@
 Amazon EC2 Image builder simplies the creation, maintenance, validation, sharing, and deployment
 of Linux or Windows images for use with Amazon EC2 and on-premises compute resources.
 
-5 Key benefits of the image builder:
+---
+**5 Key Benefits of the Image Builder:**
+
 1. Increased IT productivity. Image builder provides all its functionality without the need to
 write and maintain automation code, freeing up resources and time.
 
@@ -45,3 +47,42 @@ launch instances.
 
 - A block device mapping that specifies the volumes to attach to the instance when it's launched.
 
+
+## Shared & Public AMIs
+One of the most convenient ways to get started with Amazon EC2 is to use a shared AMI that already 
+has the OS and software components you need. 
+
+You can then add your own additional content to the instance. 
+
+With your finalized instance, you can create a new AMI. 
+
+When you have an AMI built, _it can have one_ of the following visibilities:
+- Private, so only you can use it
+
+- Completely public, so anyone can use it
+
+- Shared internally within an AWS account or AWS Organization
+
+Because AWS cannot vouch for the integrity or security of all publicly shared AMIs, **you use a shared 
+public AMI at your own risk.**
+
+---
+**Details to consider when sharing AMIs with the public**
+
+1. **Regional Resource:**
+    - AMIs are a Regional resource. When you search for a shared AMI (public or private), you must 
+    search for it from the same Region from which it is shared.
+    - To make an AMI available in a different Region, copy the AMI to the Region and then share it.
+
+2. **AMIs that cannot be public:**
+    - If the AMI contains **Encrypted Volumes, Snapshots of encrypted volumes, and Product Codes**
+    the AMI can't be public.
+    - You can share the AMI with specific AWS accounts.
+
+3. **Sensitive Data:**
+    - 
+
+4. **Deprecation:**
+
+
+5. **Billing:**
