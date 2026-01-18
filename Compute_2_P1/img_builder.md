@@ -80,9 +80,17 @@ public AMI at your own risk.**
     - You can share the AMI with specific AWS accounts.
 
 3. **Sensitive Data:**
-    - 
+    - Avoid exposing sensitive data. 
+    - To avoid exposing sensitive data when you share an AMI, read the security considerations in 
+    the guidelines for shared Linux AMIs and follow the recommended actions. 
 
 4. **Deprecation:**
-
+    - By default, the deprecation date of all public AMIs is automatically set to 2 years from 
+    the AMI creation date.
+    - You can choose to set the deprecation date to be sooner than 2 years. 
+    - To cancel the deprecation date, or to move the deprecation to a later date, you must make 
+    the AMI private by only sharing it with specific AWS accounts.
 
 5. **Billing:**
+    - You are not billed when your AMI is used by other AWS accounts to launch instances. 
+    - The accounts that launch instances using the AMI are billed for the instances that they launch.
