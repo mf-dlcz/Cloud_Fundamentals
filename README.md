@@ -11,7 +11,7 @@
         - [Image Builder](Compute_2_P1/img_builder.md)
     - [Compute 2 Part 2](Compute_2_P1)
         - [Understanding AWS Elastic Beanstalk](Compute_2_P2/elastic_beanstalk.md)
-        - []()
+        - [AWS Lambda](Compute_2_P2/lambda.md)
         - []()
         - []()
     - [Diagrams](Diagrams)

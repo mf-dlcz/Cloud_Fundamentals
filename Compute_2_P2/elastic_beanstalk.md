@@ -82,3 +82,21 @@ deployment-oriented tasks:
     
     - You design and target your web application to a platform. Elastic Beanstalk provides a variety 
     of platforms on which you can build your applications.
+
+
+## Steps for using Elastic Beanstalk
+1. Create a web app
+
+2. Create an AWS Elastic Beanstalk app
+
+3. Create an environment for the app
+
+4. Upload a zip of your app
+
+5. Deploy your app to running resources or select an older version
+
+6. Save the environment
+
+
+> [!NOTE]  
+> When you deploy your application, AWS Elastic Beanstalk deploys web server applications or worker applications.
