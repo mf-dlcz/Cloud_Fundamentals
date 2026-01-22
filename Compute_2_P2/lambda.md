@@ -14,7 +14,6 @@ backends.
 
 
 ## Core Lambda Concepts
-
 ### **Function:**
 - A function is a resource that you can invoke to run your code in Lambda.
 
