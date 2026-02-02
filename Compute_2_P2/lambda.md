@@ -36,3 +36,30 @@ the function.
 - Using layers reduces the size of uploaded deployment archives and makes it faster to deploy your code.
 
 ### **Destination:**
+- A destination is an AWS resource where Lambda can send events from a asynchronous invocation.
+
+### **Concurrency:**
+- Concurrency is the number of requests that your function is serving at any given time.
+
+### **Deployment Package:**
+- You deploy your Lambda function code using a deployment package.
+
+- Lambda supports two types of deployment packages:
+    - A .zip file archive: Contains function code and its dependencies. 
+
+    - A container image: A container image includes the base operating system, the runtime,
+    Lambda extensions, your app code, and its dependencies.
+
+### **Execution Environment:**
+- Lambda invokes your function in an execution environment, which is a secure and isolated
+runtime environment.
+
+### **Instruction Set Architecture:**
+- The instruction set architecture determines the type of computer processor that Lambda uses
+to run the function.
+
+
+## Lambda Function Concepts
+
+### **Timeout:**
+
