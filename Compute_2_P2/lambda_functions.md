@@ -71,3 +71,15 @@ Lastly, Lambda runs the event handler code for your function.
 
 
 ## Minimizing Cold Start Latency
+Cold starts can add significant response times to your application whenever Lambda has to start a new virtual machine (VM) 
+to run an instance of your application.
+
+A feature called provisioned concurrency can help reduce cold start latencies by always keeping a certain number of functions 
+prewarmed and ready to go.
+
+Provisioned concurrency is the number of pre-initialized execution environments allocated to your function.
+
+These environments respond immediately to incoming function requests, reducing the impact of cold starts on function 
+duration and helping to reduce maximum response times.
+
+**Note that configuring provisioned concurrency incurs additional charges to your AWS account.**
