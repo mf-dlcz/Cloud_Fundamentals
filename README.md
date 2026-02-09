@@ -12,6 +12,8 @@
     - [Compute 2 Part 2](Compute_2_P1)
         - [Understanding AWS Elastic Beanstalk](Compute_2_P2/elastic_beanstalk.md)
         - [AWS Lambda](Compute_2_P2/lambda.md)
+        - [Lambda Functions](Compute_2_P2/lambda_functions.md)
+    - [Networking 2 Part 1](Networking_2_P1)
         - []()
         - []()
     - [Diagrams](Diagrams)
