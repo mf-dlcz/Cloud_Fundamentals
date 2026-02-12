@@ -14,8 +14,8 @@
         - [AWS Lambda](Compute_2_P2/lambda.md)
         - [Lambda Functions](Compute_2_P2/lambda_functions.md)
     - [Networking 2 Part 1](Networking_2_P1)
-        - []()
-        - []()
+        - [VPC Review](Networking_2_P1/vpc_review.md)
+        - [AWS Networking Services Review](Networking_2_P1/aws_networking_services.md)
     - [Diagrams](Diagrams)
         - [](Diagrams/.drawio)
 
