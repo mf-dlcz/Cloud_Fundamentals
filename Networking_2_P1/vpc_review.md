@@ -89,5 +89,17 @@ instance in your VPC.
 ## Elastic Network Interfaces
 - An Elastic Network Interface is a logical networking component in a VPC that represents a virtual network card.
 
+- When moved to a new intances, the network interface maintains its public and Elastic IP address, its private and
+Elastic IP address, and MAC address.
 
-##
+- The attributes of a network follow it.
+
+
+## NAT Gateways
+- NAT is used for IP address conservation
+
+- Because NAT maps private IP addresses to a public address, you can use it to allow private IP networks to connect
+to the internet.
+
+
+## VPC Security Features
