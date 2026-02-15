@@ -16,7 +16,7 @@
 - VPCs deploy into one of the AWS Regions, and can host resources from any Availability Zones within its Region
 
 
-## Subnets
+### Subnets
 - A subnet is a range of IP addresses in your VPC
 
 - You can launch AWS resources into a specified subnet
@@ -34,7 +34,7 @@ network traffic is directed, a _public subnet_ has a route table with a direct r
 _public IP addresses_, which are addresses that are accessible from the internet. 
 
 
-## Internet Gateways
+### Internet Gateways
 - Is a VPC component that permits communication between instances in your VPC and the internet.
 
 - An internet gateway serves two purposes
@@ -44,7 +44,7 @@ _public IP addresses_, which are addresses that are accessible from the internet
 - An internet gateway performs NAT by mapping a public and private IP address
 
 
-## Route Tables
+### Route Tables
 - A route table contains a set of rules called **routes** that the VPC uses to determine where to direct network
 traffic.
 
@@ -62,7 +62,7 @@ traffic.
 with, and uses the main route table.
 
 
-## Private Subnets
+### Private Subnets
 - Allow indirect access to the internet.
 
 - Traffic stays within your private network.
@@ -71,7 +71,7 @@ with, and uses the main route table.
 the network interface of the EC2 instance.
 
 
-## Elastic IP Addresses
+### Elastic IP Addresses
 - Is a static public IPv4 address designed for dynamic cloud computing.
 
 - You can associate an Elastic IP address with any instance or network interface for any VPC in your account.
@@ -86,7 +86,7 @@ instance in your VPC.
 - An Elastic IP address is accessed through the internet gateway of a VPC.
 
 
-## Elastic Network Interfaces
+### Elastic Network Interfaces
 - An Elastic Network Interface is a logical networking component in a VPC that represents a virtual network card.
 
 - When moved to a new intances, the network interface maintains its public and Elastic IP address, its private and
@@ -95,11 +95,37 @@ Elastic IP address, and MAC address.
 - The attributes of a network follow it.
 
 
-## NAT Gateways
+### NAT Gateways
 - NAT is used for IP address conservation
 
 - Because NAT maps private IP addresses to a public address, you can use it to allow private IP networks to connect
 to the internet.
 
 
-## VPC Security Features
+## Review of VPC Security Features
+
+
+### Network ACLs
+- A network ACL is an optional layer of security for your VPC that acts as a firewall for controlling traffic in
+and out of one or more subnets.
+
+- Every VPC automaticall comes with a default network ACL.
+
+- It allows all inbound and outbound IPv4 traffic.
+
+- You can create a custom network ACL and associate it with a subnet by default, custom network ACLs deny all
+inbound and outbound traffic.
+
+- A network ACL contains a numbered list of rules which are evaluated in order starting with the lowest numbered 
+rule.
+
+- If a rule matches the traffic, the rule is applied even if any higher number rule contradicts it.
+
+
+### Security Groups
+- A security group acts as a virtual firewall for your instance to control inbound as well as outbound traffic.
+
+- Security groups act at a network interface level, not subnet level.
+
+
+## Networking Services
