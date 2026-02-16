@@ -129,3 +129,47 @@ rule.
 
 
 ## Networking Services
+
+
+### Network Foundations
+- You can use Amazon VPC to launch resources in an isolated virtual network.
+
+- AWS PrivateLink helps you establush private connectivity between a VPC and AWS services.
+
+- Transit Gateway connects your VPC and on-premises networks.
+
+
+### Hybrid Connectivity
+- AWS Direct Connect provides a private, reliable physical connection to AWS from your physical facility, such as a
+data center or office.
+
+- AWS Cloud WAN is a managed wide area network (WAN) service. You can use it to build, manage and monitor a unified
+global network that connects resources running across your cloud and on-premises environments.
+
+- With AWS Site-to-Site VPN, you can securely connect your on-premises network, such as your branch office site, to
+Amazon VPC.
+
+- You can use AWS client VPN to securely connect users, such as remote employees, to AWS or on-premises networks.
+
+
+### Edge Networking
+- CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs,
+video content, or other web assets.
+
+- Route 53 is a highly available and scalable DNS web service.
+
+- Global Accelerator is a networking service that improves the availability and performance of the application you
+offer to your global users.
+
+
+### Network Security
+- AWS Firewall Manager is a security management service that you can use to centrally configure and manage firewall
+rules across your accounts and applications in AWS Organizations.
+
+- AWS Shield is a managed distributed denial of service (DDoS) protection service that safeguards your application
+running on AWS.
+
+- AWS Network Firewall allows you to define fine-grained firewall rules across your VPCs.
+
+- AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits
+and bots.
