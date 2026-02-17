@@ -16,6 +16,7 @@
     - [Networking 2 Part 1](Networking_2_P1)
         - [VPC Review](Networking_2_P1/vpc_review.md)
         - [Developing & Hosting on AWS](Networking_2_P1/developing_hosting.md)
+        - [](Networking_2_P1/network_connectivity.md)
     - [Diagrams](Diagrams)
         - [](Diagrams/.drawio)
 
