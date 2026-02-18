@@ -47,6 +47,43 @@ associated with an Elastic IP address.
 ## Elastic IP Addresses
 - An Elastic IP address is a static public IPv4 address associated with your AWS account in a specific Region. 
 
-- Unlike an automatically assigned public IP address, an Elastic IP address is preserved after you stop and 
-start your instance in a VPC.
+- **Unlike an automatically assigned public IP address, an Elastic IP address is preserved after you stop and 
+start your instance in a VPC.**
+
+- You can't retain or reserve the current public IP address assigned to the instance using an automatically 
+assigned public IP address.
+
+- You cannot convert an automatically assigned public IP address to an Elastic IP address.
+
+- There is a default limit of five Elastic IP addresses per Region for each AWS account. 
+
+- You are charged a small fee for any Elastic IP address that is not associated to a running instance.
+
+> [!NOTE]  
+> An Elastic IP address remains associated with your AWS account until you release it, and you can move it from 
+> one instance to another as needed. You can bring your own IP address range to your AWS account. It appears as 
+> an address pool, and you can allocate Elastic IP addresses from your address pool.
+
+
+
+## Elastic Network Interface Overview
+An elastic network interface is a logical networking component that represents a virtual network card.
+
+The network interface makes it possible for the host instance to communicate on the network to other hosts, 
+resources, and the external internet.
+
+When you create a security group, the security group is associated with the network interface. Traffic that 
+attempts to connect to the network interface must have a security group rule that allows inbound access to the 
+instance.
+
+### Primary Network Interface
+- Is created by default when the instance is created.
+
+- You cannot detach or move a primary network interface from the instance on which it was created.
+
+
+### Secondary Network Interface
+- Is an additional interface you create and attach to the instance.
+
+- The maximum number of network interfaces you can use varies by instance type.
 
