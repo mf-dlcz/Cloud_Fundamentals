@@ -4,7 +4,7 @@ EC2 instances in AWS are assigned two IP addresses at launch: a private address 
 The private address is used for communication between instances in the same VPC, and the public address is used 
 for communication over the internet.
 
-> [NOTE!]  
+> [!NOTE]  
 > A public IP address associated with an instance can change whenever the instance is restarted.
 
 

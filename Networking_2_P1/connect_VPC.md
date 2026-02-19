@@ -59,7 +59,7 @@ allow traffic to and from the internet.
 
 
 
-> [NOTE!]  
+> [!NOTE]  
 > When an internet gateway is attached to a subnet, it creates a public subnet by performing a type of 
 > NAT called static NAT. The internet gateway will allocate a resource with a public IPv4 IP address. 
 > When packets pass through the internet gateway, the internet gateway switches the source IP address 
