@@ -17,6 +17,7 @@
         - [Developing & Hosting on AWS](Networking_2_P1/developing_hosting.md)
         - [Networking Connectivity](Networking_2_P1/network_connectivity.md)
         - [Security Features Overview](Networking_2_P1/security_feat_overview.md)
+        - [Filtering Traffic to Subnets](Networking_2_P1/filtering_traffic.md)
 
     - [Networking 2 Part 2](Networking_2_P2)
         -[](Networking_2_P2/)
