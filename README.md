@@ -1,5 +1,4 @@
 # Cloud_Fundamentals
-
 ## Table of Contents
 
 - [Cloud Fundamentals](#Cloud_Fundamentals)
