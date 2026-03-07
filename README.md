@@ -21,6 +21,11 @@
 
     - [Networking 2 Part 2](Networking_2_P2)
         -[](Networking_2_P2/)
+
+    - [Storage 2 Part 1](Storage_2_P1)
+    
+    - [Storage 2 Part 2](Storage_2_P2)
+
     - [Diagrams](Diagrams)
         - [](Diagrams/.drawio)
 
