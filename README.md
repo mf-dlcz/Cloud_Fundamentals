@@ -18,6 +18,7 @@
         - [Networking Connectivity](Networking_2_P1/network_connectivity.md)
         - [Security Features Overview](Networking_2_P1/security_feat_overview.md)
         - [Filtering Traffic to Subnets](Networking_2_P1/filtering_traffic.md)
+        - [Analyzing Network Connectivity](Networking_2_P1/analyzing_network_connectivity.md)
 
     - [Networking 2 Part 2](Networking_2_P2)
         -[](Networking_2_P2/)
