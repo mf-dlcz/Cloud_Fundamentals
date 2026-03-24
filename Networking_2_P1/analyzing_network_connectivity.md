@@ -39,4 +39,8 @@ and traffic protocols. This allows you to precisely define the allowed network c
 
 
 ## How It works
-- 
+### Define your network access requirements
+
+### Run Analyses
+
+### Review Findings
